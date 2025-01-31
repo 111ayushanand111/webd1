@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background-color: #2E5E4E;
+}
+
+
+.header {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background: #93a7aa;
+    color: #DBD3D8;
+    display: grid;
+    grid-template-columns: 50% 10% 20% 10% 10%;
+    font-size: 40px;
+}
+
+#prol {
+    text-decoration: none;
+    color: #DBD3D8;
+}
+
+#freel {
+    text-decoration: none;
+    color: #DBD3D8;
+}
+
+.around1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.around2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc {
+    font-size: 400%;
+    text-align: center;
+    color: #DBD3D8;
+}
+
+.sub {
+    font-size: 40%;
+    text-align: center;
+}
+
+.search {
+    font-size: 200%;
+    text-align: center;
+    color: #A7B5B9;
+    border: solid;
+    border-color: #DBD3D8;
+    background-color: #DBD3D8;
+}
+
+.searchbox {
+    align-items: normal;
+}
+
+.img {
+    height: 20%;
+    width: 20%;
+}
+
+#serv {
+    font-size: 500%;
+    margin: 2%;
+    color: #DBD3D8;
+}
+
+.services {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sim {
+    margin: 1%;
+    width: 12%;
+}
+
+.content {
+    margin: 2%;
+    display: flex;
+    border: solid;
+    border-color: #A7B5B9;
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    width: 60%;
+    margin: 2%;
+}
+
+
+.feature {
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+    width: 50%;
+}
+
+.featuret {
+    font-size: 150%;
+    color: #93A7AA;
+    font-style: bold;
+}
+
+.featured {
+    font-size: 100%;
+    font-style: italic;
+}
+
+#featurei {
+    align-content: center;
+    height:80%;
+    width: 100%;
+}
+
+#premium {
+    font-size: 300%;
+    color: #DBD3D8;
+    text-align: center;
+}
+
+#button {
+    border: solid;
+    font-size: 200%;
+    border-color: white;
+    position: static;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+}
+  
+.freelance-community {
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    margin-top: 60px;
+
+}
+  
+.freelance-community h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#freet {
+    font-size: 300%;
+    color: #DBD3D8;
+}
+  
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+  
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+  
+.card .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+  
+.card:hover .overlay {
+    opacity: 1;
+}
+  
+.card.special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f3f3f3;
+    border: 2px dashed #ddd;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.card.special:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+  
+.card.special .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.card.special .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+.card.special .btn {
+    background-color: #00b22d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+  
+.card.special .btn:hover {
+    background-color: #009c26;
+}
+  
+.grid:hover .card {
+    opacity: 0.5;
+}
+  
+.grid:hover .card:hover {
+    opacity: 1;
+}
+
+.cardspecial {
+    background-color: #2E5E4E;
+}
